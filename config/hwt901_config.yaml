@@ -1,0 +1,7 @@
+hwt901_publisher:
+  ros__parameters:
+    port: "/dev/imu"
+    baudrate: 115200
+    topic: "/imu/data"
+    frame_id: "imu_link"
+    publish_rate: 100.0  # Tần số public (Hz)
